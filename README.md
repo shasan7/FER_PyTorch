@@ -1,4 +1,12 @@
+Facial Expression Recognition using the KDEF dataset (https://www.kaggle.com/datasets/tom99763/testtt).
+
+The images were transformed and normalized using torch, then we fed them to the pretrained DenseNet121 model for fine-Tuning. (Several other popular pre-trained models are also listed along with it).
+
+A learning rate of 1e-4 was used, along with batch size of 8, and the training was conducted for 50 epochs.
+The best validation accuracy achieved by our model is 96.26%.
+
 ![Abstract: ](Abstract.png)
+
 
 Training Summary:
 
@@ -60,6 +68,7 @@ Training Summary:
     Epoch [49/50]  Train Loss: 0.0169 | Train Acc: 99.66%  || Val Loss: 0.3609 | Val Acc: 93.20%
     Epoch [50/50]  Train Loss: 0.0147 | Train Acc: 99.57%  || Val Loss: 0.2783 | Val Acc: 93.71%
 
+
 Obtained Results:
 
     Classification Report:
@@ -77,6 +86,7 @@ Obtained Results:
     accuracy                           0.96       588
     macro avg      0.96      0.96      0.96       588
     weighted avg   0.96      0.96      0.96       588
+
 
 ![Confusion Matrix: ](Conf_Mat.png)
 
