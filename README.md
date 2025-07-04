@@ -1,6 +1,6 @@
 # Facial Expression Recognition using the KDEF dataset
 
-## Dataset Link: (https://www.kaggle.com/datasets/tom99763/testtt)
+## Dataset Link: https://www.kaggle.com/datasets/tom99763/testtt
 
 ## Kaggle Notebook: https://www.kaggle.com/code/shasan07/fer-pytorch
 
