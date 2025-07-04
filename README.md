@@ -1,9 +1,13 @@
-Facial Expression Recognition using the KDEF dataset (https://www.kaggle.com/datasets/tom99763/testtt).
+# Facial Expression Recognition using the KDEF dataset
+
+## Dataset Link: (https://www.kaggle.com/datasets/tom99763/testtt)
+
+## Kaggle Notebook: https://www.kaggle.com/code/shasan07/fer-pytorch
 
 The images were transformed and normalized using torch, then we fed them to the pretrained DenseNet121 model for fine-Tuning. (Several other popular pre-trained models are also listed along with it).
 
 A learning rate of 1e-4 was used, along with batch size of 8, and the training was conducted for 50 epochs.
-The best validation accuracy achieved by our model is 96.26%.
+**The best validation accuracy achieved by our model is 96.26%.**
 
 ![Abstract: ](Abstract.png)
 
