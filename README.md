@@ -1,4 +1,4 @@
-# Facial Expression Recognition using the KDEF dataset
+# Facial Expression Recognition (FER) using the KDEF dataset
 
 ## Dataset Link: https://www.kaggle.com/datasets/tom99763/testtt
 
